@@ -149,13 +149,13 @@ header {
   min-height: 470px;
   display: flex;
   align-items: center;
-  margin-top: 5rem;
+  margin-top: 5rem !important;
   border-radius: 0.5rem;
 }
 .home-img {
-  position: absolute;
-  width: 100%;
-  height: 100%;
+  position: fixed;
+  width: 88%;
+  height: 80%;
   z-index: -1;
   object-fit: cover;
   border-radius: 0.5rem;
@@ -203,6 +203,7 @@ header {
   background: var(--container-color);
   padding: 8px 14px;
   border: 1px solid hsl(200 100% 99% / 5%);
+  margin-bottom: 2rem;
 }
 .heading-title {
   font-size: 1.2rem;
